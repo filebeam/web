@@ -44,11 +44,9 @@ deberías especificar en el archivo `.env`, puedes usar el archivo
 
 ## Contribuir
 
-Aun no contamos con pautas de contribución establecidas, por lo que no
-aceptaremos contribuciones por el momento.
-
-Aun asi, apreciamos tu interés por Filebeam. Si deseas apoyar el proyecto, ¡Nos
-ayudarías mucho con una estrella!
+Apreciamos tu interés por Filebeam. Sin embargo, aun no aceptamos
+contribuciones. Si deseas apoyar el proyecto, ¡Nos ayudarías mucho con una
+estrella! ☆
 
 ## Licencia
 
