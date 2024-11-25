@@ -4,9 +4,7 @@
         height="80" width="80">
     </a>
     <h3 align="center">
-        <code>
-            @filebeam/web
-        </code>
+        <code>@filebeam/web</code>
     </h3>
     <p align="center">
         La aplicación web de Filebeam
