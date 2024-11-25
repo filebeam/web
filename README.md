@@ -24,8 +24,8 @@
 
 Antes de preparar un entorno de desarrollo necesitaras haber instalado
 previamente una version reciente de
-[**node**](https://nodejs.org/en/download/package-manager) y
-[**pnpm**](https://pnpm.io/installation)
+[node](https://nodejs.org/en/download/package-manager) y
+[pnpm](https://pnpm.io/installation)
 
 -   Clona el repositorio e instala las dependencias usando
 
@@ -35,8 +35,8 @@ previamente una version reciente de
     pnpm install
     ```
 
--   Para iniciar el servidor local, usa `pnpm dev` - Para construir la
-    aplicación, usa `pnpm build`
+-   Para iniciar el servidor local, usa `pnpm dev`
+-   Para construir la aplicación, usa `pnpm build`
 
 Adicionalmente, la aplicación hace uso de variables de configuración las cuales
 deberías especificar en el archivo `.env`, puedes usar el archivo
