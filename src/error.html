@@ -1,0 +1,58 @@
+<h1>%sveltekit.status%</h1>
+<p>%sveltekit.error.message%</p>
+<button onclick="location.reload()">recargar</button>
+
+<style>
+    html,
+    body {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: #f3f3f9;
+        background-image: linear-gradient(to bottom, #0d0d0d, #121212);
+
+        text-align: center;
+        font-family: system-ui;
+
+        user-select: none;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 6rem;
+    }
+
+    p {
+        margin: 0;
+
+        font-size: 1.5rem;
+        text-transform: lowercase;
+
+        opacity: 50%;
+    }
+
+    button {
+        cursor: pointer;
+
+        margin-top: 1rem;
+        padding: 0.4rem 1rem;
+
+        border: none;
+        border-radius: 6px;
+
+        color: #fff;
+        background: linear-gradient(to bottom, #2a2a2a, #1f1f1f);
+    }
+
+    button:hover {
+        background: linear-gradient(to bottom, #1a1a1a, #151515);
+    }
+
+    button:focus-within {
+        outline: 2px solid #4e94b6;
+    }
+</style>

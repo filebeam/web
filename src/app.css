@@ -1,0 +1,105 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    src: url("/fonts/HostGrotesk[wght].woff2");
+    font-family: "Host Grotesk";
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url("/fonts/HostGrotesk-Italic[wght].woff2");
+    font-family: "Host Grotesk";
+    font-style: italic;
+    font-display: swap;
+}
+
+@layer base {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    :root {
+        scrollbar-width: none;
+        -webkit-user-drag: none;
+        -ms-overflow-style: none;
+        font-variant-ligatures: none;
+        @apply select-none;
+        @apply transition-all;
+        @apply bg-white text-black;
+        @apply dark:bg-black dark:text-white;
+    }
+
+    a:focus-visible,
+    div:focus-visible,
+    input:focus-visible,
+    button:focus-visible,
+    textarea:focus-visible {
+        @apply !outline !outline-2 !outline-blue-500;
+    }
+
+    a,
+    div,
+    input,
+    button,
+    textarea {
+        @apply outline outline-2 outline-transparent;
+    }
+}
+
+@layer components {
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-bold;
+    }
+
+    h1 {
+        @apply text-3xl;
+    }
+
+    h2 {
+        @apply text-2xl;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+
+    a {
+        @apply transition-all;
+        @apply text-blue-600 dark:text-blue;
+        @apply hover:text-blue-700 dark:hover:text-blue-300;
+        @apply text-wrap break-words;
+    }
+
+    ul,
+    ol {
+        @apply pl-4 space-y-2;
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    ol {
+        @apply list-decimal;
+    }
+
+    kbd {
+        @apply transition-all;
+        @apply border-2 border-b-4;
+        @apply border-white-900 bg-white-500 text-black/70;
+        @apply dark:border-black-200 dark:bg-black-400 dark:text-white/70;
+        @apply font-sans font-bold uppercase;
+        @apply rounded-lg px-2 py-0.5;
+        font-size: 0.8em;
+    }
+}
