@@ -9,13 +9,6 @@
     <p align="center">
         La aplicación web de Filebeam
     </p>
-    <a href="https://filebeam.xyz">
-        <strong>
-            filebeam.xyz ↗
-        </strong>
-    </a>
-    <br />
-    <br />
     <div align="center">
         <!-- todo: add more badges (maybe) -->
         <a href="https://svelte.dev/">
