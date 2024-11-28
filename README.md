@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://github.com/ShaanCoding/ReadME-Generator">
+    <a href="https://filebeam.xyz">
         <img src="static/icons/any.png" title="Filebeam" alt="Icono de Filebeam"
         height="80" width="80">
     </a>
@@ -9,6 +9,13 @@
     <p align="center">
         La aplicación web de Filebeam
     </p>
+    <a href="https://filebeam.xyz">
+        <strong>
+            filebeam.xyz ↗
+        </strong>
+    </a>
+    <br />
+    <br />
     <div align="center">
         <!-- todo: add more badges (maybe) -->
         <a href="https://svelte.dev/">
